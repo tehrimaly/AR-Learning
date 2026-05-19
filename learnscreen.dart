@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+class LearnScreen extends StatelessWidget {
+  const LearnScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Learn Screen'),
+      ),
+      body: const Center(
+        child: Text(
+          'Welcome to Learn!',
+          style: TextStyle(fontSize: 24),
+        ),
+      ),
+    );
+  }
+}
